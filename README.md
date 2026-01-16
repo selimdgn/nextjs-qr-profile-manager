@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kisibilgisi.com - Identity & Emergency System
+
+A secure, Next.js-based identity management system designed for storing user profiles, emergency contacts, and medical information, accessible via QR codes.
+
+![Project Preview](public/preview.png)
+
+## Features
+
+-   **Secure User Profiles:** Store vital information like blood type, emergency contacts, and medical notes.
+-   **QR Code Integration:** Generate unique QR codes for each user for quick access.
+-   **Admin Dashboard:** Comprehensive admin panel to create, edit, and delete users.
+-   **Dynamic Backgrounds:** High-end visual effects with moving nebulas and liquid glass UI.
+-   **Emergency Contacts:** Add and manage multiple emergency contacts for each user.
+-   **Social Media Integration:** Link user profiles to social platforms (Instagram, Twitter, LinkedIn) with clickable cards.
+-   **Security:** Role-based access control (Admin/User) and secure authentication.
+
+## Tech Stack
+
+-   **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+-   **Language:** TypeScript
+-   **Styling:** Tailwind CSS + Custom CSS Animations
+-   **Database:** SQLite (via `better-sqlite3`)
+-   **Authentication:** Custom cookie-based session management
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-   Node.js (v18 or higher)
+-   npm or yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/kisibilgisi.com.git
+    cd kisibilgisi.com
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2.  Install dependencies:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-## Learn More
+3.  Run the development server:
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+4.  Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Default Credentials
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The system initializes with a default admin account. **Please change these credentials immediately after first login.**
 
-## Deploy on Vercel
+-   **Username:** `admin`
+-   **Password:** `admin123`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is optimized for deployment on Vercel or any Node.js hosting provider.
+
+## License
+
+[MIT](LICENSE)

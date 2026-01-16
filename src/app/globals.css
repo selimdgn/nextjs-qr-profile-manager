@@ -1,42 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
+    --background: #000000;
     --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+/* Nebula Animation - Dynamic Moving & Swapping */
+@keyframes nebula-move {
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    25% {
+        transform: translate(30vw, 20vh) scale(1.2);
+    }
+
+    50% {
+        transform: translate(-20vw, 40vh) scale(0.8);
+    }
+
+    75% {
+        transform: translate(-40vw, -20vh) scale(1.1);
+    }
+
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.animate-nebula-move {
+    animation: nebula-move 40s ease-in-out infinite alternate;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.delay-1 {
+    animation-delay: 0s;
+}
+
+.delay-2 {
+    animation-delay: -10s;
+}
+
+.delay-3 {
+    animation-delay: -20s;
+}
+
+/* Liquid Glass Effect - High-end glossy look */
+.glass-liquid {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(20px) saturate(150%);
+    -webkit-backdrop-filter: blur(20px) saturate(150%);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, 0.5),
+        inset 0 10px 20px rgba(255, 255, 255, 0.1),
+        inset 0 -10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.glass-ocean {
+    /* Merged with liquid glass but keeping the name for compatibility/semantic diff if needed */
+    background: rgba(20, 20, 30, 0.2);
+    backdrop-filter: blur(30px) saturate(120%);
+    -webkit-backdrop-filter: blur(30px) saturate(120%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow:
+        0 8px 32px 0 rgba(0, 0, 0, 0.37),
+        inset 0 0 15px rgba(255, 255, 255, 0.05);
 }
