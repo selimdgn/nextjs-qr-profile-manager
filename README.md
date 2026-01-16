@@ -75,3 +75,9 @@ The author claims **no intellectual property rights**. It is free and unencumber
 You are free to use, modify, and distribute it without any restriction.
 
 [View Full License](LICENSE)
+
+## Trademark Notice
+
+While this software is in the public domain, the name **"RubbleTalk"** is a reserved project identifier.
+The "RubbleTalk" brand and name are **NOT** covered by the Unlicense/Public Domain dedication.
+Usage of this name in derivative works, forks, or public deployments is strictly prohibited without explicit permission.
