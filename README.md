@@ -64,6 +64,14 @@ The system initializes with a default admin account. **Please change these crede
 
 This project is optimized for deployment on Vercel or any Node.js hosting provider.
 
+## Credits & Rights
+
+**Documentation & Code Generation:** This project was created entirely with the assistance of Artificial Intelligence.
+
 ## License
 
-[MIT](LICENSE)
+This project is released under the **Unlicense**.
+The author claims **no intellectual property rights**. It is free and unencumbered software released into the public domain.
+You are free to use, modify, and distribute it without any restriction.
+
+[View Full License](LICENSE)
