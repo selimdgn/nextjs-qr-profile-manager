@@ -3,7 +3,7 @@
 A secure, Next.js-based identity management system designed for storing user profiles, emergency contacts, and medical information, accessible via QR codes.
 
 > [!IMPORTANT]
-> **Legal Disclaimer:** This project is **NOT** affiliated with, endorsed by, or connected to the domain name `kisibilgisi.com`. Any resemblance to existing internet domains is purely coincidental. Use of this software does not grant rights to any domain name.
+> **Legal Disclaimer:** This is an independent open-source project. It is **NOT** the official website of `kisibilgisi.com` and has no business relationship with the current owner of that domain. The project name refers to the generic concept of "Identity Information" (Kişi Bilgisi) in Turkish.
 
 ![Project Preview](public/preview.png)
 
