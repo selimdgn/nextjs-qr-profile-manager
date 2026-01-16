@@ -2,7 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Kisibilgisi.com - Identity System',
+    title: 'Kişi Bilgisi - Identity System',
     description: 'Secure QR Code Identity System',
 };
 

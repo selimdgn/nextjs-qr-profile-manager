@@ -159,7 +159,7 @@ export default async function UserProfile({ params }: { params: Promise<{ id: st
 
                 <div className="mt-8 pt-6 border-t border-white/10">
                     <p className="text-xs text-gray-400 uppercase tracking-widest">Bir RubbleTalk kuruluşudur</p>
-                    <p className="text-sm font-semibold mt-1 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">kisibilgisi.com</p>
+                    <p className="text-sm font-semibold mt-1 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Kişi Bilgisi</p>
                 </div>
             </main>
         </div>

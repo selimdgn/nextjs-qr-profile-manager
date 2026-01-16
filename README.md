@@ -1,6 +1,9 @@
-# Kisibilgisi.com - Identity & Emergency System
+# Kişi Bilgisi - Identity & Emergency System
 
 A secure, Next.js-based identity management system designed for storing user profiles, emergency contacts, and medical information, accessible via QR codes.
+
+> [!IMPORTANT]
+> **Legal Disclaimer:** This project is **NOT** affiliated with, endorsed by, or connected to the domain name `kisibilgisi.com`. Any resemblance to existing internet domains is purely coincidental. Use of this software does not grant rights to any domain name.
 
 ![Project Preview](public/preview.png)
 
@@ -33,8 +36,8 @@ A secure, Next.js-based identity management system designed for storing user pro
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/kisibilgisi.com.git
-    cd kisibilgisi.com
+    git clone https://github.com/selimdgn/nextjs-qr-profile-manager.git
+    cd nextjs-qr-profile-manager
     ```
 
 2.  Install dependencies:

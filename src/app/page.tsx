@@ -49,7 +49,7 @@ export default function Home() {
                 <div className="glass-liquid glass-liquid-hover rounded-3xl p-8 transform transition-all duration-500">
                     <div className="text-center mb-10">
                         <h1 className="text-5xl font-bold text-white mb-2 tracking-tighter drop-shadow-lg">
-                            kisibilgisi.com
+                            Kişi Bilgisi
                         </h1>
                         <p className="text-white/80 text-sm tracking-[0.2em] uppercase font-semibold">Kullanıcı Girişi</p>
                     </div>
